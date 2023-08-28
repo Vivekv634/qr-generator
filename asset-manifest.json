@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/qr-generator/static/css/main.63adb279.css",
+    "main.js": "/qr-generator/static/js/main.a7171cde.js",
+    "index.html": "/qr-generator/index.html",
+    "main.63adb279.css.map": "/qr-generator/static/css/main.63adb279.css.map",
+    "main.a7171cde.js.map": "/qr-generator/static/js/main.a7171cde.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63adb279.css",
+    "static/js/main.a7171cde.js"
+  ]
+}
