@@ -4,10 +4,6 @@ import './App.css';
 function App() {
   const [inputValue, setInputValue] = useState('');
 
-  function handleInput(e) {
-    setInputValue(e.target.value);
-  }
-
   return (
     <div className="app">
       <h1>QR Generator</h1>
@@ -16,7 +12,7 @@ function App() {
         id='message'
         value={inputValue}
         placeholder='Enter Your text...'
-        onChange={handleInput} />
+        onChange={e => setInputValue(e.target.value)} />
       <div className='image'>
         <img src={`http://api.qrserver.com/v1/create-qr-code/?data=${inputValue}&size=180x180`} alt='' />
       </div>
